@@ -1,0 +1,30 @@
+main {
+    width: 100%;
+}
+body {
+    outline: 2px solid; 
+    outline-offset: -1px; 
+    margin-left: 25%; 
+    margin-right: 25%; 
+    border-collapse: collapse;
+}
+
+#name {
+    display: inline-block; 
+    color: black; 
+    padding: 5px 10px; 
+    margin-right: 20px;
+}
+
+#fsd {
+    text-align: center; 
+    font-family: sans-serif; 
+    width: 100%;
+}
+
+#review_maindiv {
+    display: table; 
+    width:100%; 
+    border-collapse: collapse;
+}
+

@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic HTML Page</title>
-    
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body style=" outline: 2px solid; outline-offset: -1px; margin-left: 25%; margin-right: 25%; border-collapse: collapse;">
+<body>
     <header>
         <nav>
-            <div style="display: inline-block; color: black; padding: 5px 10px; margin-right: 20px;">
-                <strong>your name</strong>
+            <div id="name">
+                <strong>Gunaseelan</strong>
             </div>
-            <div style="float: right;">
+            <div style="float: right; padding: 5px;">
                 <a href="#home">Home</a> /
                 <a href="#projects">Projects</a> /
                 <a href="#articles">Articles</a> /
@@ -20,34 +20,44 @@
             </div>
         </nav>
     </header>
-    <main style="width: 100%;">
-        <section style="text-align: center; font-family: sans-serif; width: 100%;">
-            <h1>FrontEnd Developer</h1>
-            <p style="color:gray">html only with proper layout, no styling</p>
+    <main>
+        <section id="fsd">
+            <h1>Full Stack Developer</h1>
+        <!--    <p style="color:gray">html only with proper layout, no styling</p>-->
         </section>
         <section style="display: table; width: 100%;">
             <div style="display: table-cell; width: 33.33%;border: 1px solid;">
                 <h2 style="padding-left: 10px;">Projects</h2>
                 <p style="padding-left: 3px; padding-right: 3px; border-bottom: 1px solid;">HTML only portfolio</p>
-                <p style="padding-left: 3px; padding-right: 3px; border-bottom: 1px solid;">Calculator</p>
+                <p style="padding-left: 3px; padding-right: 3px; border-bottom: 1px solid;">Basic HTML Website</p>
+         <!--       
                 <p style="padding-left: 3px; padding-right: 3px; border-bottom: 1px solid;">Quiz App</p>
                 <p style="padding-left: 3px; padding-right: 3px; border-bottom: 1px solid;">Countdown Timer</p>
-                <p style="padding-left: 3px; padding-right: 3px;">Product Upcoming Page</p>
+                <p style="padding-left: 3px; padding-right: 3px;">Product Upcoming Page</p> -->
             </div>
             <div style="display: table-cell; width: 33.33%; border: 1px solid;">
                 <div style="border-bottom: 1px solid;">
                 <h2 style="padding-left: 10px;">Work Exprience</h2>
                 <ul>
-                    <i>roadmap.sh</i>
-                    <li>Solved all the frontend projects</li>
+                    <i>Infosys Limited (Jan 2022 - present)</i>
+                    <li>Developer at Finacle</li>
+                    <li>Debugging, fixing production issues and deploying the same</li>
+                    
                 </ul>
-                <a style="padding: 3px; text-decoration: none; " href="#">Visit my profile</a>
+                <ul>
+                    <i>Sutherland Global Services (June 2019 - July 2021)</i>
+                    <li>Worked as a Customer Service associate</li>
+                    
+                    
+                </ul>
+                <a style="padding: 3px; text-decoration: none; " target="_blank" href="https://www.linkedin.com/in/agentpenguin/">Visit my profile</a>
                 </div>
                 <div>
                     <h2 style="padding-left: 10px;">Opensource Work</h2>
                     <ul>
                         <li>Willing to contribute to Opensource projects</li>
                     </ul>
+                    <a style="padding: 3px; text-decoration: none; " target="_blank" href="https://github.com/theagentpenguin">Visit my github profile</a>
                 </div>
             </div>
             <div style="display: table-cell; width: 33.33%; border: 1px solid;">
@@ -71,22 +81,9 @@
 
     
         <h3 style="padding-left: 10px;">Reviews from my Teachers</h3>
-        <div style="display: table; width:100%; border-collapse: collapse;">
-        <div style="display: table-cell; outline: 2px solid black;outline-offset: -1px; border-radius: 20px; padding: 20px; margin: 10px; width:33.33%;">
-            <p>John Doe was a brilliant student. always stood out with his assignments</p>
-            <p style="color: lightgray;">Jane Doe</p>
-            <p style="color: lightgray;">Assistant Professor</p>
-        </div>
-        <div style="display: table-cell; outline: 2px solid black;outline-offset: -1px; border-radius: 20px; padding: 20px; margin: 10px; width:33.33%;">
-            <p>John Doe was a brilliant student. always stood out with his assignments</p>
-            <p style="color: lightgray;">Jane Doe</p>
-            <p style="color: lightgray;">Assistant Professor</p>
-        </div>
-        <div style="display: table-cell; outline: 2px solid black; outline-offset: -1px; border-radius: 20px; padding: 20px; margin: 10px; width:33.33%;">
-            <p>John Doe was a brilliant student. always stood out with his assignments</p>
-            <p style="color: lightgray;">Jane Doe</p>
-            <p style="color: lightgray;">Assistant Professor</p>
-        </div>
+        <i><h4>I'll update this with actual comments from my professors or managers soon!</h4></i>
+        <div id="review__maindiv">
+
         </div>
         </section>
     
